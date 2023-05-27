@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA72A22A0540084143B /* StellarRideApp.swift */; };
+		C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA92A22A0540084143B /* ContentView.swift */; };
+		C98BDAAC2A22A0550084143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98BDAAB2A22A0550084143B /* Assets.xcassets */; };
+		C98BDAAF2A22A0550084143B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98BDAAE2A22A0550084143B /* Preview Assets.xcassets */; };
+		C98BDAB92A22A0550084143B /* StellarRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAB82A22A0550084143B /* StellarRideTests.swift */; };
+		C98BDAC32A22A0550084143B /* StellarRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAC22A22A0550084143B /* StellarRideUITests.swift */; };
+		C98BDAC52A22A0550084143B /* StellarRideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C98BDAB52A22A0550084143B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98BDA9C2A22A0540084143B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98BDAA32A22A0540084143B;
+			remoteInfo = StellarRide;
+		};
+		C98BDABF2A22A0550084143B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C98BDA9C2A22A0540084143B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C98BDAA32A22A0540084143B;
+			remoteInfo = StellarRide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C98BDAA42A22A0540084143B /* StellarRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98BDAA72A22A0540084143B /* StellarRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideApp.swift; sourceTree = "<group>"; };
+		C98BDAA92A22A0540084143B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C98BDAAB2A22A0550084143B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C98BDAAE2A22A0550084143B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C98BDAB42A22A0550084143B /* StellarRideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarRideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98BDAB82A22A0550084143B /* StellarRideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideTests.swift; sourceTree = "<group>"; };
+		C98BDABE2A22A0550084143B /* StellarRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C98BDAC22A22A0550084143B /* StellarRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideUITests.swift; sourceTree = "<group>"; };
+		C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C98BDAA12A22A0540084143B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98BDAB12A22A0550084143B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98BDABB2A22A0550084143B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C98BDA9B2A22A0540084143B = {
+			isa = PBXGroup;
+			children = (
+				C98BDAA62A22A0540084143B /* StellarRide */,
+				C98BDAB72A22A0550084143B /* StellarRideTests */,
+				C98BDAC12A22A0550084143B /* StellarRideUITests */,
+				C98BDAA52A22A0540084143B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C98BDAA52A22A0540084143B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C98BDAA42A22A0540084143B /* StellarRide.app */,
+				C98BDAB42A22A0550084143B /* StellarRideTests.xctest */,
+				C98BDABE2A22A0550084143B /* StellarRideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C98BDAA62A22A0540084143B /* StellarRide */ = {
+			isa = PBXGroup;
+			children = (
+				C98BDAA72A22A0540084143B /* StellarRideApp.swift */,
+				C98BDAA92A22A0540084143B /* ContentView.swift */,
+				C98BDAAB2A22A0550084143B /* Assets.xcassets */,
+				C98BDAAD2A22A0550084143B /* Preview Content */,
+			);
+			path = StellarRide;
+			sourceTree = "<group>";
+		};
+		C98BDAAD2A22A0550084143B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C98BDAAE2A22A0550084143B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C98BDAB72A22A0550084143B /* StellarRideTests */ = {
+			isa = PBXGroup;
+			children = (
+				C98BDAB82A22A0550084143B /* StellarRideTests.swift */,
+			);
+			path = StellarRideTests;
+			sourceTree = "<group>";
+		};
+		C98BDAC12A22A0550084143B /* StellarRideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C98BDAC22A22A0550084143B /* StellarRideUITests.swift */,
+				C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */,
+			);
+			path = StellarRideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C98BDAA32A22A0540084143B /* StellarRide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98BDAC82A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRide" */;
+			buildPhases = (
+				C98BDAA02A22A0540084143B /* Sources */,
+				C98BDAA12A22A0540084143B /* Frameworks */,
+				C98BDAA22A22A0540084143B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StellarRide;
+			productName = StellarRide;
+			productReference = C98BDAA42A22A0540084143B /* StellarRide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C98BDAB32A22A0550084143B /* StellarRideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98BDACB2A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRideTests" */;
+			buildPhases = (
+				C98BDAB02A22A0550084143B /* Sources */,
+				C98BDAB12A22A0550084143B /* Frameworks */,
+				C98BDAB22A22A0550084143B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98BDAB62A22A0550084143B /* PBXTargetDependency */,
+			);
+			name = StellarRideTests;
+			productName = StellarRideTests;
+			productReference = C98BDAB42A22A0550084143B /* StellarRideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C98BDABD2A22A0550084143B /* StellarRideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C98BDACE2A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRideUITests" */;
+			buildPhases = (
+				C98BDABA2A22A0550084143B /* Sources */,
+				C98BDABB2A22A0550084143B /* Frameworks */,
+				C98BDABC2A22A0550084143B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C98BDAC02A22A0550084143B /* PBXTargetDependency */,
+			);
+			name = StellarRideUITests;
+			productName = StellarRideUITests;
+			productReference = C98BDABE2A22A0550084143B /* StellarRideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C98BDA9C2A22A0540084143B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C98BDAA32A22A0540084143B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					C98BDAB32A22A0550084143B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C98BDAA32A22A0540084143B;
+					};
+					C98BDABD2A22A0550084143B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = C98BDAA32A22A0540084143B;
+					};
+				};
+			};
+			buildConfigurationList = C98BDA9F2A22A0540084143B /* Build configuration list for PBXProject "StellarRide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C98BDA9B2A22A0540084143B;
+			productRefGroup = C98BDAA52A22A0540084143B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C98BDAA32A22A0540084143B /* StellarRide */,
+				C98BDAB32A22A0550084143B /* StellarRideTests */,
+				C98BDABD2A22A0550084143B /* StellarRideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C98BDAA22A22A0540084143B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98BDAAF2A22A0550084143B /* Preview Assets.xcassets in Resources */,
+				C98BDAAC2A22A0550084143B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98BDAB22A22A0550084143B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98BDABC2A22A0550084143B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C98BDAA02A22A0540084143B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */,
+				C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98BDAB02A22A0550084143B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98BDAB92A22A0550084143B /* StellarRideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98BDABA2A22A0550084143B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98BDAC52A22A0550084143B /* StellarRideUITestsLaunchTests.swift in Sources */,
+				C98BDAC32A22A0550084143B /* StellarRideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C98BDAB62A22A0550084143B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98BDAA32A22A0540084143B /* StellarRide */;
+			targetProxy = C98BDAB52A22A0550084143B /* PBXContainerItemProxy */;
+		};
+		C98BDAC02A22A0550084143B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C98BDAA32A22A0540084143B /* StellarRide */;
+			targetProxy = C98BDABF2A22A0550084143B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C98BDAC62A22A0550084143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C98BDAC72A22A0550084143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C98BDAC92A22A0550084143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StellarRide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.swiftui.StellarRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C98BDACA2A22A0550084143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StellarRide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.swiftui.StellarRide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C98BDACC2A22A0550084143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.swiftui.StellarRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellarRide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StellarRide";
+			};
+			name = Debug;
+		};
+		C98BDACD2A22A0550084143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.swiftui.StellarRideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StellarRide.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StellarRide";
+			};
+			name = Release;
+		};
+		C98BDACF2A22A0550084143B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.swiftui.StellarRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellarRide;
+			};
+			name = Debug;
+		};
+		C98BDAD02A22A0550084143B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.edu.srmist.swiftui.StellarRideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StellarRide;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C98BDA9F2A22A0540084143B /* Build configuration list for PBXProject "StellarRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98BDAC62A22A0550084143B /* Debug */,
+				C98BDAC72A22A0550084143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98BDAC82A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98BDAC92A22A0550084143B /* Debug */,
+				C98BDACA2A22A0550084143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98BDACB2A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98BDACC2A22A0550084143B /* Debug */,
+				C98BDACD2A22A0550084143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C98BDACE2A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C98BDACF2A22A0550084143B /* Debug */,
+				C98BDAD02A22A0550084143B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C98BDA9C2A22A0540084143B /* Project object */;
+}
