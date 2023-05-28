@@ -10,6 +10,9 @@
 		3F6924497E0B1F9AE58CD5B8 /* Pods_StellarRideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB811A929E7F2DEC4A9506B /* Pods_StellarRideTests.framework */; };
 		5E77D1BB5F5AF917746480ED /* Pods_StellarRide_StellarRideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84F5EC088D6F55A2B4861A1 /* Pods_StellarRide_StellarRideUITests.framework */; };
 		78192E4D64A186323C027083 /* Pods_StellarRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CB8F183ADC12C8E5F706B4 /* Pods_StellarRide.framework */; };
+		C9695E762A23F1950026D5FD /* locationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9695E752A23F1950026D5FD /* locationCard.swift */; };
+		C9695EAE2A23F8610026D5FD /* TimeSlots.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9695EAD2A23F8610026D5FD /* TimeSlots.swift */; };
+		C9695EB02A24083C0026D5FD /* FaceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9695EAF2A24083C0026D5FD /* FaceId.swift */; };
 		C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA72A22A0540084143B /* StellarRideApp.swift */; };
 		C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA92A22A0540084143B /* ContentView.swift */; };
 		C98BDAAC2A22A0550084143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98BDAAB2A22A0550084143B /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		39D0FD63D9AE6B5C319B1414 /* Pods-StellarRideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRideTests.release.xcconfig"; path = "Target Support Files/Pods-StellarRideTests/Pods-StellarRideTests.release.xcconfig"; sourceTree = "<group>"; };
 		3EB811A929E7F2DEC4A9506B /* Pods_StellarRideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellarRideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F339165D6444BD1371DB6E /* Pods-StellarRide-StellarRideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRide-StellarRideUITests.debug.xcconfig"; path = "Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9695E752A23F1950026D5FD /* locationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationCard.swift; sourceTree = "<group>"; };
+		C9695EAD2A23F8610026D5FD /* TimeSlots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlots.swift; sourceTree = "<group>"; };
+		C9695EAF2A24083C0026D5FD /* FaceId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceId.swift; sourceTree = "<group>"; };
 		C98BDAA42A22A0540084143B /* StellarRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98BDAA72A22A0540084143B /* StellarRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideApp.swift; sourceTree = "<group>"; };
 		C98BDAA92A22A0540084143B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,7 +132,6 @@
 				1C98AA1508E46EAFD29AFBEB /* Pods-StellarRideTests.debug.xcconfig */,
 				39D0FD63D9AE6B5C319B1414 /* Pods-StellarRideTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -162,8 +167,8 @@
 				C98BDAA92A22A0540084143B /* ContentView.swift */,
 				C9A9825A2A235E68000AEF19 /* SchedulingPage.swift */,
 				C9A982682A23B916000AEF19 /* ScheduleTrip.swift */,
-				C9A9826A2A23BB80000AEF19 /* CalendarView.swift */,
 				C9A9826F2A23C258000AEF19 /* BookingSeats.swift */,
+				C9695EAF2A24083C0026D5FD /* FaceId.swift */,
 				C98BDAAD2A22A0550084143B /* Preview Content */,
 				C9B2308F2A22BE0500AEEF7B /* UIComponents */,
 			);
@@ -199,13 +204,16 @@
 			isa = PBXGroup;
 			children = (
 				C9B230902A22BE2400AEEF7B /* TopBar.swift */,
+				C9A9826A2A23BB80000AEF19 /* CalendarView.swift */,
 				C9A9825C2A2364AD000AEF19 /* TopBar2.swift */,
 				C9A982662A239144000AEF19 /* Loading.swift */,
 				C9A9825E2A236A32000AEF19 /* Weather.swift */,
 				C9B230982A22D91B00AEEF7B /* TabBar.swift */,
+				C9695EAD2A23F8610026D5FD /* TimeSlots.swift */,
 				C9A982562A22FB9A000AEF19 /* HScroll.swift */,
 				C9A982582A22FC57000AEF19 /* VScroll.swift */,
 				C9B230942A22C94A00AEEF7B /* DescriptionBar.swift */,
+				C9695E752A23F1950026D5FD /* locationCard.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -473,12 +481,15 @@
 				C9A982702A23C258000AEF19 /* BookingSeats.swift in Sources */,
 				C9A9825F2A236A32000AEF19 /* Weather.swift in Sources */,
 				C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */,
+				C9695EB02A24083C0026D5FD /* FaceId.swift in Sources */,
 				C9A982692A23B916000AEF19 /* ScheduleTrip.swift in Sources */,
+				C9695EAE2A23F8610026D5FD /* TimeSlots.swift in Sources */,
 				C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */,
 				C9B230952A22C94A00AEEF7B /* DescriptionBar.swift in Sources */,
 				C9B230912A22BE2400AEEF7B /* TopBar.swift in Sources */,
 				C9B230992A22D91B00AEEF7B /* TabBar.swift in Sources */,
 				C9A982572A22FB9A000AEF19 /* HScroll.swift in Sources */,
+				C9695E762A23F1950026D5FD /* locationCard.swift in Sources */,
 				C9A982592A22FC57000AEF19 /* VScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -50,18 +50,17 @@ struct CalendarViews: View {
                         ZStack(alignment: .center) {
                             if date.isToday {
                                 Circle()
-                                    .padding(1)
                                     .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
                                     .foregroundColor(Color("accent"))
                                 Text("\(date.day)")
                                     .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
-                                    .font(.system(size: 20, weight: .bold, design: .default))
+                                    .font(.system(size: 16, weight: .bold, design: .default))
                                     .foregroundColor(Color("primary"))
                                     
                             } else {
                                 Text("\(date.day)")
                                     .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
-                                    .font(.system(size: 18, weight: .regular, design: .default))
+                                    .font(.system(size: 14, weight: .regular, design: .default))
                                     .foregroundColor(Color("primary"))
                                     .opacity(date.isFocusYearMonth == true ? 1 : 0.4)
                             }
