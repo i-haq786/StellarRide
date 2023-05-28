@@ -14,6 +14,13 @@
 		C98BDAB92A22A0550084143B /* StellarRideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAB82A22A0550084143B /* StellarRideTests.swift */; };
 		C98BDAC32A22A0550084143B /* StellarRideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAC22A22A0550084143B /* StellarRideUITests.swift */; };
 		C98BDAC52A22A0550084143B /* StellarRideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */; };
+		C9A982572A22FB9A000AEF19 /* HScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A982562A22FB9A000AEF19 /* HScroll.swift */; };
+		C9A982592A22FC57000AEF19 /* VScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A982582A22FC57000AEF19 /* VScroll.swift */; };
+		C9B2308E2A22AED100AEEF7B /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2308D2A22AED100AEEF7B /* ContentView2.swift */; };
+		C9B230912A22BE2400AEEF7B /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B230902A22BE2400AEEF7B /* TopBar.swift */; };
+		C9B230932A22BF2B00AEEF7B /* UICard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B230922A22BF2B00AEEF7B /* UICard.swift */; };
+		C9B230952A22C94A00AEEF7B /* DescriptionBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B230942A22C94A00AEEF7B /* DescriptionBar.swift */; };
+		C9B230992A22D91B00AEEF7B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B230982A22D91B00AEEF7B /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		C98BDABE2A22A0550084143B /* StellarRideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StellarRideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98BDAC22A22A0550084143B /* StellarRideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideUITests.swift; sourceTree = "<group>"; };
 		C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C9A982562A22FB9A000AEF19 /* HScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScroll.swift; sourceTree = "<group>"; };
+		C9A982582A22FC57000AEF19 /* VScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScroll.swift; sourceTree = "<group>"; };
+		C9B2308D2A22AED100AEEF7B /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		C9B230902A22BE2400AEEF7B /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		C9B230922A22BF2B00AEEF7B /* UICard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICard.swift; sourceTree = "<group>"; };
+		C9B230942A22C94A00AEEF7B /* DescriptionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionBar.swift; sourceTree = "<group>"; };
+		C9B230982A22D91B00AEEF7B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				C98BDAA62A22A0540084143B /* StellarRide */,
+				C98BDAAB2A22A0550084143B /* Assets.xcassets */,
+				C9B230922A22BF2B00AEEF7B /* UICard.swift */,
+				C9B2308D2A22AED100AEEF7B /* ContentView2.swift */,
 				C98BDAB72A22A0550084143B /* StellarRideTests */,
 				C98BDAC12A22A0550084143B /* StellarRideUITests */,
 				C98BDAA52A22A0540084143B /* Products */,
@@ -96,8 +113,8 @@
 			children = (
 				C98BDAA72A22A0540084143B /* StellarRideApp.swift */,
 				C98BDAA92A22A0540084143B /* ContentView.swift */,
-				C98BDAAB2A22A0550084143B /* Assets.xcassets */,
 				C98BDAAD2A22A0550084143B /* Preview Content */,
+				C9B2308F2A22BE0500AEEF7B /* UIComponents */,
 			);
 			path = StellarRide;
 			sourceTree = "<group>";
@@ -125,6 +142,18 @@
 				C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */,
 			);
 			path = StellarRideUITests;
+			sourceTree = "<group>";
+		};
+		C9B2308F2A22BE0500AEEF7B /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				C9B230902A22BE2400AEEF7B /* TopBar.swift */,
+				C9B230982A22D91B00AEEF7B /* TabBar.swift */,
+				C9A982582A22FC57000AEF19 /* VScroll.swift */,
+				C9A982562A22FB9A000AEF19 /* HScroll.swift */,
+				C9B230942A22C94A00AEEF7B /* DescriptionBar.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B2308E2A22AED100AEEF7B /* ContentView2.swift in Sources */,
+				C9B230932A22BF2B00AEEF7B /* UICard.swift in Sources */,
 				C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */,
 				C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */,
+				C9B230952A22C94A00AEEF7B /* DescriptionBar.swift in Sources */,
+				C9B230912A22BE2400AEEF7B /* TopBar.swift in Sources */,
+				C9B230992A22D91B00AEEF7B /* TabBar.swift in Sources */,
+				C9A982572A22FB9A000AEF19 /* HScroll.swift in Sources */,
+				C9A982592A22FC57000AEF19 /* VScroll.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,6 +12,7 @@ struct StellarRideApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .background(Color("bgcolor").ignoresSafeArea())
         }
     }
 }
