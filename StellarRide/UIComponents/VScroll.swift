@@ -26,7 +26,7 @@ struct VScroll: View {
                             
                             Text("Nature")
                                 .font(.title2.weight(.semibold))
-                                .foregroundColor(Color("bgcolor"))
+                                .foregroundColor(Color("primary"))
                         }
                     }
                 }

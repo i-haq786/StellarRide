@@ -16,7 +16,7 @@ struct HScroll: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             
-            HStack(spacing: 20) {
+            HStack() {
                 Spacer()
                 ForEach(items, id: \.self) { item in
                     ZStack{
@@ -36,11 +36,12 @@ struct HScroll: View {
                     }
                     .frame(width: (expanded) ? 335 : 150, height: (expanded) ? 400 : 100)
                     .cornerRadius(10)
+                    
                 }
-                
-                
             }
-        }.padding(.horizontal, -25)
+            .padding(.horizontal, -20)
+        }
+        //.padding(.horizontal, -25)
     }
 }
 

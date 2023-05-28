@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F6924497E0B1F9AE58CD5B8 /* Pods_StellarRideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB811A929E7F2DEC4A9506B /* Pods_StellarRideTests.framework */; };
+		5E77D1BB5F5AF917746480ED /* Pods_StellarRide_StellarRideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84F5EC088D6F55A2B4861A1 /* Pods_StellarRide_StellarRideUITests.framework */; };
+		78192E4D64A186323C027083 /* Pods_StellarRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CB8F183ADC12C8E5F706B4 /* Pods_StellarRide.framework */; };
 		C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA72A22A0540084143B /* StellarRideApp.swift */; };
 		C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA92A22A0540084143B /* ContentView.swift */; };
 		C98BDAAC2A22A0550084143B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98BDAAB2A22A0550084143B /* Assets.xcassets */; };
@@ -16,6 +19,14 @@
 		C98BDAC52A22A0550084143B /* StellarRideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */; };
 		C9A982572A22FB9A000AEF19 /* HScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A982562A22FB9A000AEF19 /* HScroll.swift */; };
 		C9A982592A22FC57000AEF19 /* VScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A982582A22FC57000AEF19 /* VScroll.swift */; };
+		C9A9825B2A235E68000AEF19 /* SchedulingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9825A2A235E68000AEF19 /* SchedulingPage.swift */; };
+		C9A9825D2A2364AD000AEF19 /* TopBar2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9825C2A2364AD000AEF19 /* TopBar2.swift */; };
+		C9A9825F2A236A32000AEF19 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9825E2A236A32000AEF19 /* Weather.swift */; };
+		C9A982672A239144000AEF19 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A982662A239144000AEF19 /* Loading.swift */; };
+		C9A982692A23B916000AEF19 /* ScheduleTrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A982682A23B916000AEF19 /* ScheduleTrip.swift */; };
+		C9A9826B2A23BB80000AEF19 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9826A2A23BB80000AEF19 /* CalendarView.swift */; };
+		C9A9826E2A23BEF3000AEF19 /* SwiftUICalendar in Frameworks */ = {isa = PBXBuildFile; productRef = C9A9826D2A23BEF3000AEF19 /* SwiftUICalendar */; };
+		C9A982702A23C258000AEF19 /* BookingSeats.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A9826F2A23C258000AEF19 /* BookingSeats.swift */; };
 		C9B2308E2A22AED100AEEF7B /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B2308D2A22AED100AEEF7B /* ContentView2.swift */; };
 		C9B230912A22BE2400AEEF7B /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B230902A22BE2400AEEF7B /* TopBar.swift */; };
 		C9B230932A22BF2B00AEEF7B /* UICard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B230922A22BF2B00AEEF7B /* UICard.swift */; };
@@ -41,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03CB8F183ADC12C8E5F706B4 /* Pods_StellarRide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellarRide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C98AA1508E46EAFD29AFBEB /* Pods-StellarRideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRideTests.debug.xcconfig"; path = "Target Support Files/Pods-StellarRideTests/Pods-StellarRideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		39D0FD63D9AE6B5C319B1414 /* Pods-StellarRideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRideTests.release.xcconfig"; path = "Target Support Files/Pods-StellarRideTests/Pods-StellarRideTests.release.xcconfig"; sourceTree = "<group>"; };
+		3EB811A929E7F2DEC4A9506B /* Pods_StellarRideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellarRideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F339165D6444BD1371DB6E /* Pods-StellarRide-StellarRideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRide-StellarRideUITests.debug.xcconfig"; path = "Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C98BDAA42A22A0540084143B /* StellarRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98BDAA72A22A0540084143B /* StellarRideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideApp.swift; sourceTree = "<group>"; };
 		C98BDAA92A22A0540084143B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,11 +69,22 @@
 		C98BDAC42A22A0550084143B /* StellarRideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StellarRideUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C9A982562A22FB9A000AEF19 /* HScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HScroll.swift; sourceTree = "<group>"; };
 		C9A982582A22FC57000AEF19 /* VScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VScroll.swift; sourceTree = "<group>"; };
+		C9A9825A2A235E68000AEF19 /* SchedulingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulingPage.swift; sourceTree = "<group>"; };
+		C9A9825C2A2364AD000AEF19 /* TopBar2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar2.swift; sourceTree = "<group>"; };
+		C9A9825E2A236A32000AEF19 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		C9A982662A239144000AEF19 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		C9A982682A23B916000AEF19 /* ScheduleTrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTrip.swift; sourceTree = "<group>"; };
+		C9A9826A2A23BB80000AEF19 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		C9A9826F2A23C258000AEF19 /* BookingSeats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingSeats.swift; sourceTree = "<group>"; };
 		C9B2308D2A22AED100AEEF7B /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
 		C9B230902A22BE2400AEEF7B /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		C9B230922A22BF2B00AEEF7B /* UICard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICard.swift; sourceTree = "<group>"; };
 		C9B230942A22C94A00AEEF7B /* DescriptionBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionBar.swift; sourceTree = "<group>"; };
 		C9B230982A22D91B00AEEF7B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		D9B562D009E6AE3EE3664E44 /* Pods-StellarRide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRide.debug.xcconfig"; path = "Target Support Files/Pods-StellarRide/Pods-StellarRide.debug.xcconfig"; sourceTree = "<group>"; };
+		EEABFEB960F68C3E36BA4A46 /* Pods-StellarRide-StellarRideUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRide-StellarRideUITests.release.xcconfig"; path = "Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5F9F610912176E383CDA7C1 /* Pods-StellarRide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRide.release.xcconfig"; path = "Target Support Files/Pods-StellarRide/Pods-StellarRide.release.xcconfig"; sourceTree = "<group>"; };
+		F84F5EC088D6F55A2B4861A1 /* Pods_StellarRide_StellarRideUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellarRide_StellarRideUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9A9826E2A23BEF3000AEF19 /* SwiftUICalendar in Frameworks */,
+				78192E4D64A186323C027083 /* Pods_StellarRide.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6924497E0B1F9AE58CD5B8 /* Pods_StellarRideTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +109,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E77D1BB5F5AF917746480ED /* Pods_StellarRide_StellarRideUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		439BA1775B92DB38A0CB3A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9B562D009E6AE3EE3664E44 /* Pods-StellarRide.debug.xcconfig */,
+				F5F9F610912176E383CDA7C1 /* Pods-StellarRide.release.xcconfig */,
+				82F339165D6444BD1371DB6E /* Pods-StellarRide-StellarRideUITests.debug.xcconfig */,
+				EEABFEB960F68C3E36BA4A46 /* Pods-StellarRide-StellarRideUITests.release.xcconfig */,
+				1C98AA1508E46EAFD29AFBEB /* Pods-StellarRideTests.debug.xcconfig */,
+				39D0FD63D9AE6B5C319B1414 /* Pods-StellarRideTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C98BDA9B2A22A0540084143B = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +140,8 @@
 				C98BDAB72A22A0550084143B /* StellarRideTests */,
 				C98BDAC12A22A0550084143B /* StellarRideUITests */,
 				C98BDAA52A22A0540084143B /* Products */,
+				439BA1775B92DB38A0CB3A82 /* Pods */,
+				FA501F137A1DD9AFFE2E55CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +160,10 @@
 			children = (
 				C98BDAA72A22A0540084143B /* StellarRideApp.swift */,
 				C98BDAA92A22A0540084143B /* ContentView.swift */,
+				C9A9825A2A235E68000AEF19 /* SchedulingPage.swift */,
+				C9A982682A23B916000AEF19 /* ScheduleTrip.swift */,
+				C9A9826A2A23BB80000AEF19 /* CalendarView.swift */,
+				C9A9826F2A23C258000AEF19 /* BookingSeats.swift */,
 				C98BDAAD2A22A0550084143B /* Preview Content */,
 				C9B2308F2A22BE0500AEEF7B /* UIComponents */,
 			);
@@ -148,12 +199,25 @@
 			isa = PBXGroup;
 			children = (
 				C9B230902A22BE2400AEEF7B /* TopBar.swift */,
+				C9A9825C2A2364AD000AEF19 /* TopBar2.swift */,
+				C9A982662A239144000AEF19 /* Loading.swift */,
+				C9A9825E2A236A32000AEF19 /* Weather.swift */,
 				C9B230982A22D91B00AEEF7B /* TabBar.swift */,
-				C9A982582A22FC57000AEF19 /* VScroll.swift */,
 				C9A982562A22FB9A000AEF19 /* HScroll.swift */,
+				C9A982582A22FC57000AEF19 /* VScroll.swift */,
 				C9B230942A22C94A00AEEF7B /* DescriptionBar.swift */,
 			);
 			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		FA501F137A1DD9AFFE2E55CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03CB8F183ADC12C8E5F706B4 /* Pods_StellarRide.framework */,
+				F84F5EC088D6F55A2B4861A1 /* Pods_StellarRide_StellarRideUITests.framework */,
+				3EB811A929E7F2DEC4A9506B /* Pods_StellarRideTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,15 +227,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98BDAC82A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRide" */;
 			buildPhases = (
+				4219080392E09F4C5FA7DF73 /* [CP] Check Pods Manifest.lock */,
 				C98BDAA02A22A0540084143B /* Sources */,
 				C98BDAA12A22A0540084143B /* Frameworks */,
 				C98BDAA22A22A0540084143B /* Resources */,
+				3B369E75F4F08D01362AD118 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = StellarRide;
+			packageProductDependencies = (
+				C9A9826D2A23BEF3000AEF19 /* SwiftUICalendar */,
+			);
 			productName = StellarRide;
 			productReference = C98BDAA42A22A0540084143B /* StellarRide.app */;
 			productType = "com.apple.product-type.application";
@@ -180,6 +249,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98BDACB2A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRideTests" */;
 			buildPhases = (
+				979FD0A9BB4A55E49F57956F /* [CP] Check Pods Manifest.lock */,
 				C98BDAB02A22A0550084143B /* Sources */,
 				C98BDAB12A22A0550084143B /* Frameworks */,
 				C98BDAB22A22A0550084143B /* Resources */,
@@ -198,9 +268,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98BDACE2A22A0550084143B /* Build configuration list for PBXNativeTarget "StellarRideUITests" */;
 			buildPhases = (
+				BB05C115856BB100BD3190AC /* [CP] Check Pods Manifest.lock */,
 				C98BDABA2A22A0550084143B /* Sources */,
 				C98BDABB2A22A0550084143B /* Frameworks */,
 				C98BDABC2A22A0550084143B /* Resources */,
+				40B0AD4602A43E6DFB761FA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -244,6 +316,9 @@
 				Base,
 			);
 			mainGroup = C98BDA9B2A22A0540084143B;
+			packageReferences = (
+				C9A9826C2A23BEF3000AEF19 /* XCRemoteSwiftPackageReference "SwiftUICalendar" */,
+			);
 			productRefGroup = C98BDAA52A22A0540084143B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -281,6 +356,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3B369E75F4F08D01362AD118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellarRide/Pods-StellarRide-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellarRide/Pods-StellarRide-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StellarRide/Pods-StellarRide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40B0AD4602A43E6DFB761FA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4219080392E09F4C5FA7DF73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellarRide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		979FD0A9BB4A55E49F57956F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellarRideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB05C115856BB100BD3190AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StellarRide-StellarRideUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C98BDAA02A22A0540084143B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -288,7 +466,14 @@
 			files = (
 				C9B2308E2A22AED100AEEF7B /* ContentView2.swift in Sources */,
 				C9B230932A22BF2B00AEEF7B /* UICard.swift in Sources */,
+				C9A982672A239144000AEF19 /* Loading.swift in Sources */,
+				C9A9825B2A235E68000AEF19 /* SchedulingPage.swift in Sources */,
+				C9A9825D2A2364AD000AEF19 /* TopBar2.swift in Sources */,
+				C9A9826B2A23BB80000AEF19 /* CalendarView.swift in Sources */,
+				C9A982702A23C258000AEF19 /* BookingSeats.swift in Sources */,
+				C9A9825F2A236A32000AEF19 /* Weather.swift in Sources */,
 				C98BDAAA2A22A0540084143B /* ContentView.swift in Sources */,
+				C9A982692A23B916000AEF19 /* ScheduleTrip.swift in Sources */,
 				C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */,
 				C9B230952A22C94A00AEEF7B /* DescriptionBar.swift in Sources */,
 				C9B230912A22BE2400AEEF7B /* TopBar.swift in Sources */,
@@ -447,6 +632,7 @@
 		};
 		C98BDAC92A22A0550084143B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B562D009E6AE3EE3664E44 /* Pods-StellarRide.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +661,7 @@
 		};
 		C98BDACA2A22A0550084143B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F9F610912176E383CDA7C1 /* Pods-StellarRide.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,6 +690,7 @@
 		};
 		C98BDACC2A22A0550084143B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C98AA1508E46EAFD29AFBEB /* Pods-StellarRideTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +710,7 @@
 		};
 		C98BDACD2A22A0550084143B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D0FD63D9AE6B5C319B1414 /* Pods-StellarRideTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -541,6 +730,7 @@
 		};
 		C98BDACF2A22A0550084143B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F339165D6444BD1371DB6E /* Pods-StellarRide-StellarRideUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -558,6 +748,7 @@
 		};
 		C98BDAD02A22A0550084143B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEABFEB960F68C3E36BA4A46 /* Pods-StellarRide-StellarRideUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -613,6 +804,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C9A9826C2A23BEF3000AEF19 /* XCRemoteSwiftPackageReference "SwiftUICalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GGJJack/SwiftUICalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C9A9826D2A23BEF3000AEF19 /* SwiftUICalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C9A9826C2A23BEF3000AEF19 /* XCRemoteSwiftPackageReference "SwiftUICalendar" */;
+			productName = SwiftUICalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C98BDA9C2A22A0540084143B /* Project object */;
 }

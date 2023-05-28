@@ -14,7 +14,7 @@ struct DescriptionBar: View {
     var title : String
     var subtitle : String?
     var Cost : String?
-    @State private var isModalPresented = false
+    @State private var isSheetVisible = false
     var body: some View {
         
         VStack(alignment: .leading) {
@@ -44,32 +44,29 @@ struct DescriptionBar: View {
                 Spacer()
                 
                 Button(action: {
-                    isModalPresented = true
+                    isSheetVisible.toggle()
                 })
                 {
-                    NavigationLink(destination: ContentView()){
-                        Text("₹\(Cost ?? "")")
-                            .foregroundColor(.white)
-                            .padding(.vertical, 10)
-                            .padding(.horizontal, 16)
-                            .background(Color("accent"))
-                            .cornerRadius(5)
-                    }
+                    
+                    Text("₹\(Cost ?? "")")
+                        .foregroundColor(.white)
+                        .padding(.vertical, 10)
+                        .padding(.horizontal, 16)
+                        .background(Color("accent"))
+                        .cornerRadius(5)
                 }
-                .sheet(isPresented: $isModalPresented) {
-                    ModalView()
+                
+                if isSheetVisible {
+                    VStack {
+                        SchedulingPage()
+                    }.frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
+                
             }
         }
     }
 }
 
-
-struct ModalView: View {
-    var body: some View {
-       ContentView2()
-    }
-}
 
 struct display: View {
     var body: some View{
@@ -80,6 +77,6 @@ struct display: View {
 }
 struct DescriptionBar_Previews: PreviewProvider {
     static var previews: some View {
-        display()
+        display().background(Color("bgcolor"))
     }
 }
