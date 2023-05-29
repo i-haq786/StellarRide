@@ -6,28 +6,37 @@ Description:
 Stellar Ride is a cutting-edge ride-sharing app built entirely using SwiftUI, offering a seamless and intuitive experience for users seeking efficient and convenient transportation solutions. Powered by advanced features such as SwiftUI Calendar View, captivating animations, and Face ID integration, Stellar Ride sets new standards in the ride-sharing industry.
 
 Looks:
+
 Icon:
+
 <img width="96" alt="Screenshot 2023-05-29 at 10 04 01 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/5fc11b92-e923-44fb-89b3-85c543f21f4b">
 
 HomePage:
+
 <img width="401" alt="Screenshot 2023-05-29 at 10 06 12 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/5907051f-fe25-4da5-b80c-9ce28598b7fc">
 
 Description:
+
 <img width="334" alt="Screenshot 2023-05-29 at 10 06 37 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/650399f3-b2f2-49da-84b4-dc593107a9d1">
 
 Loader:
+
 <img width="370" alt="Screenshot 2023-05-29 at 10 07 20 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/45d7b153-9aa8-4438-9563-8b01ffddc3fc">
 
 SchedulingPage:
+
 <img width="341" alt="Screenshot 2023-05-29 at 10 07 52 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/dec07f31-bd98-4480-b00b-b58eaaf8b571">
 
 Seats:
+
 <img width="328" alt="Screenshot 2023-05-29 at 10 08 01 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/5cea2776-61df-473a-817e-755a9d8dc700">
 
 FaceId:
+
 <img width="356" alt="Screenshot 2023-05-29 at 10 08 07 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/416849ee-e81b-44c3-98de-abaa0650b92c">
 
 Booking Confirmation:
+
 <img width="334" alt="Screenshot 2023-05-29 at 10 08 20 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/52475d5c-9805-475d-b3ef-d8cfe7bfd1ed">
 
 Key Features:
