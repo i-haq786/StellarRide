@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct SchedulingPage: View {
+    @State private var isModalPresented = false
     var body: some View {
         ZStack{
             Image("image1")
@@ -62,7 +63,7 @@ struct SchedulingPage: View {
                 
                 
                 Button(action: {
-                   
+                    isModalPresented = true
                     
                 }) {
                     HStack(alignment: .center) {
@@ -81,7 +82,17 @@ struct SchedulingPage: View {
                 .padding(.bottom, 30)
             }
             .frame(height: 760)
+            .sheet(isPresented: $isModalPresented) {
+                        ModalView()
+                    }
         }
+    }
+}
+
+struct ModalView: View {
+    
+    var body: some View {
+        LocationView()
     }
 }
 

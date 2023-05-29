@@ -35,9 +35,10 @@ struct CarouselView3: View {
 
 struct BookingSeats: View {
     @State private var includeChildren = false
-
+    @State private var isModalPresented = false
     var body: some View {
         VStack(alignment: .center) {
+            Spacer()
             Text("How many adults?")
                 .font(.title2.weight(.bold))
                 .foregroundColor(Color("primary"))
@@ -66,10 +67,37 @@ struct BookingSeats: View {
                 .foregroundColor(Color("primary"))
                 .padding(.top, 20)
             Spacer()
+            Button(action: {
+                isModalPresented = true
+                
+            }) {
+                HStack(alignment: .center) {
+                    Spacer()
+                    Text("Click to pay")
+                    .foregroundColor(Color("accent"))
+                    .font(.title2.bold())
+                    Spacer()
+                }
+            }
+            .frame(width: 300, height: 50)
+            .foregroundColor(Color("accent"))
+            .padding()
+            .background(Color("bgcolor"))
+            .cornerRadius(20)
+            .padding(.bottom, 30)
             
             
         }
         .background(Color("accent"))
+        .sheet(isPresented: $isModalPresented) {
+                    ModalView5()
+                }
+    }
+}
+
+struct ModalView5: View {
+    var body: some View {
+        FaceId()
     }
 }
 

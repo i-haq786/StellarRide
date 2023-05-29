@@ -11,6 +11,8 @@
 		5E77D1BB5F5AF917746480ED /* Pods_StellarRide_StellarRideUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F84F5EC088D6F55A2B4861A1 /* Pods_StellarRide_StellarRideUITests.framework */; };
 		78192E4D64A186323C027083 /* Pods_StellarRide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CB8F183ADC12C8E5F706B4 /* Pods_StellarRide.framework */; };
 		C958FCB82A24D7D500527454 /* FaceId.swift in Sources */ = {isa = PBXBuildFile; fileRef = C958FCB72A24D7D500527454 /* FaceId.swift */; };
+		C958FCF02A24E05E00527454 /* LocationFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C958FCEF2A24E05E00527454 /* LocationFetch.swift */; };
+		C958FCF42A24ED0D00527454 /* TicketConfirmationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C958FCF32A24ED0D00527454 /* TicketConfirmationPage.swift */; };
 		C9695E762A23F1950026D5FD /* locationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9695E752A23F1950026D5FD /* locationCard.swift */; };
 		C9695EAE2A23F8610026D5FD /* TimeSlots.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9695EAD2A23F8610026D5FD /* TimeSlots.swift */; };
 		C98BDAA82A22A0540084143B /* StellarRideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98BDAA72A22A0540084143B /* StellarRideApp.swift */; };
@@ -61,6 +63,8 @@
 		3EB811A929E7F2DEC4A9506B /* Pods_StellarRideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StellarRideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F339165D6444BD1371DB6E /* Pods-StellarRide-StellarRideUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StellarRide-StellarRideUITests.debug.xcconfig"; path = "Target Support Files/Pods-StellarRide-StellarRideUITests/Pods-StellarRide-StellarRideUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C958FCB72A24D7D500527454 /* FaceId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceId.swift; sourceTree = "<group>"; };
+		C958FCEF2A24E05E00527454 /* LocationFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetch.swift; sourceTree = "<group>"; };
+		C958FCF32A24ED0D00527454 /* TicketConfirmationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketConfirmationPage.swift; sourceTree = "<group>"; };
 		C9695E752A23F1950026D5FD /* locationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationCard.swift; sourceTree = "<group>"; };
 		C9695EAD2A23F8610026D5FD /* TimeSlots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSlots.swift; sourceTree = "<group>"; };
 		C98BDAA42A22A0540084143B /* StellarRide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StellarRide.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,8 +170,10 @@
 				C98BDAA72A22A0540084143B /* StellarRideApp.swift */,
 				C98BDAA92A22A0540084143B /* ContentView.swift */,
 				C9A9825A2A235E68000AEF19 /* SchedulingPage.swift */,
+				C958FCEF2A24E05E00527454 /* LocationFetch.swift */,
 				C9A982682A23B916000AEF19 /* ScheduleTrip.swift */,
 				C9A9826F2A23C258000AEF19 /* BookingSeats.swift */,
+				C958FCF32A24ED0D00527454 /* TicketConfirmationPage.swift */,
 				C98BDAAD2A22A0550084143B /* Preview Content */,
 				C9B2308F2A22BE0500AEEF7B /* UIComponents */,
 			);
@@ -473,10 +479,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9B2308E2A22AED100AEEF7B /* ContentView2.swift in Sources */,
+				C958FCF42A24ED0D00527454 /* TicketConfirmationPage.swift in Sources */,
 				C9B230932A22BF2B00AEEF7B /* UICard.swift in Sources */,
 				C9A982672A239144000AEF19 /* Loading.swift in Sources */,
 				C9A9825B2A235E68000AEF19 /* SchedulingPage.swift in Sources */,
 				C9A9825D2A2364AD000AEF19 /* TopBar2.swift in Sources */,
+				C958FCF02A24E05E00527454 /* LocationFetch.swift in Sources */,
 				C9A9826B2A23BB80000AEF19 /* CalendarView.swift in Sources */,
 				C9A982702A23C258000AEF19 /* BookingSeats.swift in Sources */,
 				C9A9825F2A236A32000AEF19 /* Weather.swift in Sources */,

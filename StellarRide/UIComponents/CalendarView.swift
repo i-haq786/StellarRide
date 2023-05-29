@@ -15,7 +15,7 @@ struct CalendarViews: View {
         GeometryReader { reader in
             VStack(alignment: .center, spacing: 0) {
 
-                ScrollView(.horizontal) {
+                ScrollView(.horizontal,showsIndicators: false) {
                     HStack(alignment: .center, spacing: 30) {
                         ForEach(0..<12) { i in
                             Text(DateFormatter().monthSymbols[i])
