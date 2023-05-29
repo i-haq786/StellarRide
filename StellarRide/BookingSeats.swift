@@ -39,7 +39,10 @@ struct BookingSeats: View {
     var body: some View {
         VStack(alignment: .center) {
             Text("How many adults?")
-                .font(.title3.weight(.bold))
+                .font(.title2.weight(.bold))
+                .foregroundColor(Color("primary"))
+            Text("12 Years+")
+                .font(.title3.weight(.medium))
                 .foregroundColor(Color("primary"))
              
             
@@ -61,6 +64,7 @@ struct BookingSeats: View {
             Text("Cost: ₹\(includeChildren ? cost * 2 : cost)")
                 .font(.title.weight(.bold))
                 .foregroundColor(Color("primary"))
+                .padding(.top, 20)
             Spacer()
             
             

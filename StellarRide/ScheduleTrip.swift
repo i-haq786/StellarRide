@@ -20,7 +20,8 @@ struct ScheduleTrip: View {
             locationCard()
                 .padding(10)
            
-            Text("______________________________________").foregroundColor(Color("primary"))
+            Text("__________________________________________")
+                .foregroundColor(Color("primary"))
                 .font(.title3.weight(.ultraLight))
                 .padding(.bottom, 10)
             
@@ -30,9 +31,6 @@ struct ScheduleTrip: View {
                 
                 
             ZStack(alignment: .topTrailing) {
-                    
-               
-                
                     CalendarViews()
                         .frame(height: 340)
                 
@@ -44,6 +42,7 @@ struct ScheduleTrip: View {
                     .background(Color("bgcolor")).blur(radius: 1)
                     .cornerRadius(40)
             }
+            
             Text("DEPARTURE TIME").foregroundColor(Color("primary"))
                 .font(.title3.weight(.regular))
             TimeSlots()

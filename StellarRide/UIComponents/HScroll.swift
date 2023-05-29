@@ -36,12 +36,10 @@ struct HScroll: View {
                     }
                     .frame(width: (expanded) ? 335 : 150, height: (expanded) ? 400 : 100)
                     .cornerRadius(10)
-                    
                 }
             }
             .padding(.horizontal, -20)
         }
-        //.padding(.horizontal, -25)
     }
 }
 
