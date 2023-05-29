@@ -1,4 +1,5 @@
 Stellar Ride - SwiftUI City Ride App
+
 Space-themed app for seamless city travel. Discover, book and ride through the cosmic streets with ease.
 
 Description:
