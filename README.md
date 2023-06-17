@@ -6,39 +6,40 @@ Description:
 
 Stellar Ride is a cutting-edge ride-sharing app built entirely using SwiftUI, offering a seamless and intuitive experience for users seeking efficient and convenient transportation solutions. Powered by advanced features such as SwiftUI Calendar View, captivating animations, and Face ID integration, Stellar Ride sets new standards in the ride-sharing industry.
 
-Looks:
+<b>Looks:</b>
 
 Icon:
 
-<img width="96" alt="Screenshot 2023-05-29 at 10 04 01 PM" src="https://drive.google.com/file/d/15zGjP9r6eZ11eZhzrFS1hR69a1_LLI3z/view?usp=sharing">
+<img width="96" alt="icon" src="https://github.com/i-haq786/StellarRide/assets/80692159/46d421dd-5f71-477a-9525-505199ee460b">
 
 HomePage:
 
-<img width="401" alt="Screenshot 2023-05-29 at 10 06 12 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/5907051f-fe25-4da5-b80c-9ce28598b7fc">
+<img width="401" alt="homepage" src="https://github.com/i-haq786/StellarRide/assets/80692159/c485efec-23d8-40d1-91f7-18828190189d">
 
 Description:
 
-<img width="334" alt="Screenshot 2023-05-29 at 10 06 37 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/650399f3-b2f2-49da-84b4-dc593107a9d1">
+<img width="334" alt="description" src="https://github.com/i-haq786/StellarRide/assets/80692159/ad8f7b94-2b32-4427-89e6-4651fae1cc7c">
 
 Loader:
 
-<img width="370" alt="Screenshot 2023-05-29 at 10 07 20 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/45d7b153-9aa8-4438-9563-8b01ffddc3fc">
+<img width="370" alt="Loader" src="https://github.com/i-haq786/StellarRide/assets/80692159/20344ade-551b-4360-a213-37efb59c99f6">
 
 SchedulingPage:
 
-<img width="341" alt="Screenshot 2023-05-29 at 10 07 52 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/dec07f31-bd98-4480-b00b-b58eaaf8b571">
+<img width="341" alt="SchedulingPage" src="https://github.com/i-haq786/StellarRide/assets/80692159/75047471-e873-4194-bdfd-d863a2a1f0de">
 
 Seats:
 
-<img width="328" alt="Screenshot 2023-05-29 at 10 08 01 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/5cea2776-61df-473a-817e-755a9d8dc700">
+<img width="328" alt="Seats" src="https://github.com/i-haq786/StellarRide/assets/80692159/9b2918c7-eb3e-4598-bc95-9e332980c97e">
 
 FaceId:
 
-<img width="356" alt="Screenshot 2023-05-29 at 10 08 07 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/416849ee-e81b-44c3-98de-abaa0650b92c">
+<img width="356" alt="FaceId" src="https://github.com/i-haq786/StellarRide/assets/80692159/bff068cf-e420-4e57-8a38-e40824c42c09">
 
 Booking Confirmation:
 
-<img width="334" alt="Screenshot 2023-05-29 at 10 08 20 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/52475d5c-9805-475d-b3ef-d8cfe7bfd1ed">
+<img width="334" alt="BookingConfirmation" src="https://github.com/i-haq786/StellarRide/assets/80692159/5cc98a12-fa6a-49ae-b581-8f91b6b452f6">
+
 
 Key Features:
 
