@@ -10,7 +10,7 @@ Looks:
 
 Icon:
 
-<img width="96" alt="Screenshot 2023-05-29 at 10 04 01 PM" src="https://github.com/i-haq786/StellarRide/assets/80692159/5fc11b92-e923-44fb-89b3-85c543f21f4b">
+<img width="96" alt="Screenshot 2023-05-29 at 10 04 01 PM" src="https://drive.google.com/file/d/15zGjP9r6eZ11eZhzrFS1hR69a1_LLI3z/view?usp=sharing">
 
 HomePage:
 
